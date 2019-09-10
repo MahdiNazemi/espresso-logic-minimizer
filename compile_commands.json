@@ -1,0 +1,722 @@
+[
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "black_white.c"
+  ],
+  "file": "black_white.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "canonical.c"
+  ],
+  "file": "canonical.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cofactor.c"
+  ],
+  "file": "cofactor.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cols.c"
+  ],
+  "file": "cols.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "compl.c"
+  ],
+  "file": "compl.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "contain.c"
+  ],
+  "file": "contain.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cpu_time.c"
+  ],
+  "file": "cpu_time.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cubestr.c"
+  ],
+  "file": "cubestr.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cvrin.c"
+  ],
+  "file": "cvrin.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cvrm.c"
+  ],
+  "file": "cvrm.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cvrmisc.c"
+  ],
+  "file": "cvrmisc.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "cvrout.c"
+  ],
+  "file": "cvrout.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "dominate.c"
+  ],
+  "file": "dominate.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "equiv.c"
+  ],
+  "file": "equiv.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "espresso.c"
+  ],
+  "file": "espresso.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "essen.c"
+  ],
+  "file": "essen.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "essentiality.c"
+  ],
+  "file": "essentiality.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "exact.c"
+  ],
+  "file": "exact.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "expand.c"
+  ],
+  "file": "expand.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "gasp.c"
+  ],
+  "file": "gasp.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "gimpel.c"
+  ],
+  "file": "gimpel.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "globals.c"
+  ],
+  "file": "globals.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "hack.c"
+  ],
+  "file": "hack.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "indep.c"
+  ],
+  "file": "indep.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "irred.c"
+  ],
+  "file": "irred.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "main.c"
+  ],
+  "file": "main.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "map.c"
+  ],
+  "file": "map.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "matrix.c"
+  ],
+  "file": "matrix.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "mincov.c"
+  ],
+  "file": "mincov.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "opo.c"
+  ],
+  "file": "opo.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "pair.c"
+  ],
+  "file": "pair.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "part.c"
+  ],
+  "file": "part.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "primes.c"
+  ],
+  "file": "primes.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "prtime.c"
+  ],
+  "file": "prtime.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "reduce.c"
+  ],
+  "file": "reduce.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "rows.c"
+  ],
+  "file": "rows.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "set.c"
+  ],
+  "file": "set.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "setc.c"
+  ],
+  "file": "setc.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "sharp.c"
+  ],
+  "file": "sharp.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "sigma.c"
+  ],
+  "file": "sigma.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "signature.c"
+  ],
+  "file": "signature.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "signature_exact.c"
+  ],
+  "file": "signature_exact.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "sminterf.c"
+  ],
+  "file": "sminterf.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "solution.c"
+  ],
+  "file": "solution.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "sparse.c"
+  ],
+  "file": "sparse.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "unate.c"
+  ],
+  "file": "unate.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "util_signature.c"
+  ],
+  "file": "util_signature.c"
+ },
+ {
+  "directory": "/home/hitarthk/CLionProjects/espresso-logic-minimizer-master/src",
+  "arguments": [
+   "gcc",
+   "-DHAVE_CONFIG_H",
+   "-I.",
+   "-I.",
+   "-I..",
+   "-g",
+   "-O2",
+   "-c",
+   "verify.c"
+  ],
+  "file": "verify.c"
+ }
+]
