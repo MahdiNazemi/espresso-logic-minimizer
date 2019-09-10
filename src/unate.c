@@ -127,6 +127,7 @@ pset_family unate_complement(pset_family A)
               			/* disposes of A */
 {
     pset_family Abar;
+
     register pset p, p1, restricted;
     register int i;
     int max_i, min_set_ord, j;
@@ -154,6 +155,7 @@ pset_family unate_complement(pset_family A)
 	/* Select splitting variable as the variable which belongs to a set
 	 * of the smallest size, and which has greatest column count
 	 */
+
 	restricted = set_new(A->sf_size);
 	min_set_ord = A->sf_size + 1;
 	foreachi_set(A, i, p) {
@@ -172,6 +174,7 @@ pset_family unate_complement(pset_family A)
 
 	/* Check for "essential" columns */
 	} else if (min_set_ord == 1) {
+
 	    Abar = unate_complement(abs_covered_many(A, restricted));
 	    sf_free(A);
 	    foreachi_set(Abar, i, p) {
@@ -180,6 +183,7 @@ pset_family unate_complement(pset_family A)
 
 	/* else, recur as usual */
 	} else {
+
 	    max_i = abs_select_restricted(A, restricted);
 
 	    /* Select those rows of A which are not covered by max_i,
@@ -202,6 +206,7 @@ pset_family unate_complement(pset_family A)
 
 	    Abar = sf_append(Abar, unate_complement(A));
 	}
+
 	set_free(restricted);
     }
 
@@ -395,13 +400,13 @@ abs_covered_many(pset_family A, register pset pick_set)
  *  1 / (set_ord(p) - 1).
  */
 static int
+
 abs_select_restricted(pset_family A, pset restricted)
 {
     register int i, best_var, best_count, *count;
 
     /* Sum the elements in these columns */
     count = sf_count_restricted(A, restricted);
-
     /* Find which variable has maximum weight */
     best_var = -1;
     best_count = 0;
