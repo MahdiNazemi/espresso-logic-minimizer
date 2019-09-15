@@ -1,0 +1,747 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls   s/call   s/call  name    
+ 72.28    615.39   615.39  3156811     0.00     0.00  feasibly_covered
+ 22.87    810.13   194.74 1506742026     0.00     0.00  setp_disjoint
+  3.55    840.39    30.26      122     0.25     6.90  select_feasible
+  1.10    849.75     9.36                             setp_equal
+  0.05    850.19     0.44     2807     0.00     0.00  essen_parts
+  0.05    850.58     0.39     2637     0.00     0.00  essen_raising
+  0.02    850.78     0.20  3032307     0.00     0.00  set_dist
+  0.02    850.97     0.19  6983978     0.00     0.00  force_lower
+  0.02    851.10     0.13      598     0.00     0.00  elim_lowering
+  0.01    851.18     0.08  3258358     0.00     0.00  set_copy
+  0.01    851.26     0.08    40141     0.00     0.00  read_cube
+  0.01    851.31     0.05  3176150     0.00     0.00  setp_implies
+  0.00    851.35     0.04        1     0.04     0.07  mini_sort
+  0.00    851.38     0.03        1     0.03     0.03  sf_count
+  0.00    851.40     0.02  3189366     0.00     0.00  set_or
+  0.00    851.42     0.02                             cdist
+  0.00    851.43     0.01      122     0.00     0.00  setup_BB_CC
+  0.00    851.44     0.01        1     0.01     0.01  set_fill
+  0.00    851.45     0.01                             set_ord
+  0.00    851.45     0.00    40320     0.00     0.00  set_clear
+  0.00    851.45     0.00    40141     0.00     0.00  sf_addset
+  0.00    851.45     0.00    34382     0.00     0.00  sm_insert
+  0.00    851.45     0.00    12819     0.00     0.00  sm_col_remove_element
+  0.00    851.45     0.00     8587     0.00     0.00  set_diff
+  0.00    851.45     0.00     4390     0.00     0.00  sm_row_remove_element
+  0.00    851.45     0.00     3703     0.00     0.00  sm_row_contains
+  0.00    851.45     0.00     3443     0.00     0.00  sm_row_alloc
+  0.00    851.45     0.00     3443     0.00     0.00  sm_row_free
+  0.00    851.45     0.00     2929     0.00     0.00  setp_empty
+  0.00    851.45     0.00     1693     0.00     0.00  sm_col_contains
+  0.00    851.45     0.00     1672     0.00     0.00  sm_col_alloc
+  0.00    851.45     0.00     1672     0.00     0.00  sm_col_free
+  0.00    851.45     0.00     1490     0.00     0.00  sm_delrow
+  0.00    851.45     0.00     1477     0.00     0.00  sm_row_intersects
+  0.00    851.45     0.00     1465     0.00     0.00  set_and
+  0.00    851.45     0.00     1099     0.00     0.00  set_adjcnt
+  0.00    851.45     0.00      839     0.00     0.00  sm_delcol
+  0.00    851.45     0.00      565     0.00     0.00  sm_row_insert
+  0.00    851.45     0.00      320     0.00     0.00  sm_resize
+  0.00    851.45     0.00      261     0.00     0.00  sf_free
+  0.00    851.45     0.00      261     0.00     0.00  sf_new
+  0.00    851.45     0.00      191     0.00     0.00  most_frequent
+  0.00    851.45     0.00      181     0.00     0.00  sm_col_dominance
+  0.00    851.45     0.00      181     0.00     0.00  sm_row_dominance
+  0.00    851.45     0.00      175     0.00     0.00  sm_alloc
+  0.00    851.45     0.00      175     0.00     0.00  sm_free
+  0.00    851.45     0.00      175     0.00     0.00  solution_free
+  0.00    851.45     0.00      131     0.00     0.00  sm_row_dup
+  0.00    851.45     0.00      123     0.00     0.00  solution_add
+  0.00    851.45     0.00      122     0.00     6.90  expand1
+  0.00    851.45     0.00      122     0.00     0.00  print_cube
+  0.00    851.45     0.00      116     0.00     0.00  solution_alloc
+  0.00    851.45     0.00      111     0.00     0.00  solution_accept
+  0.00    851.45     0.00      109     0.00     0.00  get_word
+  0.00    851.45     0.00       78     0.00     0.00  mincov
+  0.00    851.45     0.00       71     0.00     0.00  gimpel_reduce
+  0.00    851.45     0.00       69     0.00     0.00  sm_mincov
+  0.00    851.45     0.00       61     0.00     0.00  util_cpu_time
+  0.00    851.45     0.00       59     0.00     0.00  sm_dup
+  0.00    851.45     0.00       59     0.00     0.00  sm_maximal_independent_set
+  0.00    851.45     0.00       59     0.00     0.00  solution_dup
+  0.00    851.45     0.00       57     0.00     0.00  do_sm_minimum_cover
+  0.00    851.45     0.00       57     0.00     0.00  sm_minimum_cover
+  0.00    851.45     0.00       57     0.00     0.00  unravel
+  0.00    851.45     0.00       57     0.00     0.00  unravel_range
+  0.00    851.45     0.00       12     0.00     0.00  sm_row_remove
+  0.00    851.45     0.00        3     0.00     0.00  check_arg
+  0.00    851.45     0.00        2     0.00     0.00  cover_cost
+  0.00    851.45     0.00        2     0.00     0.00  cube1list
+  0.00    851.45     0.00        2     0.00     0.00  massive_count
+  0.00    851.45     0.00        2     0.00     0.00  pair_all
+  0.00    851.45     0.00        2     0.00     0.00  sm_block_partition
+  0.00    851.45     0.00        1     0.00     0.00  PLA_labels
+  0.00    851.45     0.00        1     0.00     0.01  cube_setup
+  0.00    851.45     0.00        1     0.00     0.00  fpr_header
+  0.00    851.45     0.00        1     0.00     0.00  new_PLA
+  0.00    851.45     0.00        1     0.00     0.09  parse_pla
+  0.00    851.45     0.00        1     0.00     0.09  read_pla
+  0.00    851.45     0.00        1     0.00     0.00  sf_inactive
+  0.00    851.45     0.00        1     0.00     0.00  sf_list
+  0.00    851.45     0.00        1     0.00     0.00  sf_unlist
+  0.00    851.45     0.00        1     0.00     0.00  skip_line
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 851.45 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]     98.9    0.00  841.97                 expand [1]
+                0.00  841.90     122/122         expand1 [2]
+                0.04    0.03       1/1           mini_sort [17]
+                0.00    0.00     122/3258358     set_copy [16]
+                0.00    0.00     122/3189366     set_or [20]
+                0.00    0.00       5/40320       set_clear [30]
+                0.00    0.00       1/1           sf_inactive [83]
+-----------------------------------------------
+                0.00  841.90     122/122         expand [1]
+[2]     98.9    0.00  841.90     122         expand1 [2]
+               30.26  811.57     122/122         select_feasible [3]
+                0.05    0.01     292/2807        essen_parts [7]
+                0.01    0.00     122/122         setup_BB_CC [22]
+                0.00    0.00      78/78          mincov [26]
+                0.00    0.00     244/3258358     set_copy [16]
+                0.00    0.00     122/3189366     set_or [20]
+                0.00    0.00     149/191         most_frequent [52]
+                0.00    0.00     122/2929        setp_empty [39]
+                0.00    0.00     122/8587        set_diff [34]
+                0.00    0.00     122/261         sf_free [50]
+-----------------------------------------------
+               30.26  811.57     122/122         expand1 [2]
+[3]     98.9   30.26  811.57     122         select_feasible [3]
+              615.39    0.29 3156811/3156811     feasibly_covered [4]
+              194.74    0.00 1506742026/1506742026     setp_disjoint [5]
+                0.39    0.12    2515/2807        essen_parts [7]
+                0.39    0.00    2637/2637        essen_raising [8]
+                0.20    0.00 3015926/3032307     set_dist [9]
+                0.05    0.00 3176150/3176150     setp_implies [18]
+                0.00    0.00   21854/3189366     set_or [20]
+                0.00    0.00    2515/8587        set_diff [34]
+                0.00    0.00     122/261         sf_new [51]
+-----------------------------------------------
+              615.39    0.29 3156811/3156811     select_feasible [3]
+[4]     72.3  615.39    0.29 3156811         feasibly_covered [4]
+                0.19    0.00 6968459/6983978     force_lower [10]
+                0.08    0.00 3156811/3258358     set_copy [16]
+                0.02    0.00 3156811/3189366     set_or [20]
+-----------------------------------------------
+              194.74    0.00 1506742026/1506742026     select_feasible [3]
+[5]     22.9  194.74    0.00 1506742026         setp_disjoint [5]
+-----------------------------------------------
+                                                 <spontaneous>
+[6]      1.1    9.36    0.00                 setp_equal [6]
+-----------------------------------------------
+                0.05    0.01     292/2807        expand1 [2]
+                0.39    0.12    2515/2807        select_feasible [3]
+[7]      0.1    0.44    0.13    2807         essen_parts [7]
+                0.13    0.00     598/598         elim_lowering [11]
+                0.00    0.00    2807/3258358     set_copy [16]
+                0.00    0.00    1643/6983978     force_lower [10]
+                0.00    0.00    2807/2929        setp_empty [39]
+                0.00    0.00     598/8587        set_diff [34]
+-----------------------------------------------
+                0.39    0.00    2637/2637        select_feasible [3]
+[8]      0.0    0.39    0.00    2637         essen_raising [8]
+                0.00    0.00    2637/3258358     set_copy [16]
+                0.00    0.00    2637/3189366     set_or [20]
+                0.00    0.00    5274/8587        set_diff [34]
+-----------------------------------------------
+                0.00    0.00    4395/3032307     unravel_range [27]
+                0.00    0.00   11986/3032307     mincov [26]
+                0.20    0.00 3015926/3032307     select_feasible [3]
+[9]      0.0    0.20    0.00 3032307         set_dist [9]
+-----------------------------------------------
+                0.00    0.00    1643/6983978     essen_parts [7]
+                0.00    0.00   13876/6983978     mincov [26]
+                0.19    0.00 6968459/6983978     feasibly_covered [4]
+[10]     0.0    0.19    0.00 6983978         force_lower [10]
+-----------------------------------------------
+                0.13    0.00     598/598         essen_parts [7]
+[11]     0.0    0.13    0.00     598         elim_lowering [11]
+                0.00    0.00     598/3189366     set_or [20]
+-----------------------------------------------
+                0.00    0.09       1/1           read_pla [13]
+[12]     0.0    0.00    0.09       1         parse_pla [12]
+                0.08    0.00   40141/40141       read_cube [15]
+                0.00    0.01       1/1           cube_setup [23]
+                0.00    0.00     109/109         get_word [63]
+                0.00    0.00       3/261         sf_new [51]
+                0.00    0.00       1/1           skip_line [86]
+                0.00    0.00       1/1           PLA_labels [80]
+-----------------------------------------------
+                0.00    0.09       1/1           getPLA [14]
+[13]     0.0    0.00    0.09       1         read_pla [13]
+                0.00    0.09       1/1           parse_pla [12]
+                0.00    0.00       2/61          util_cpu_time [66]
+                0.00    0.00       1/1           new_PLA [82]
+-----------------------------------------------
+                                                 <spontaneous>
+[14]     0.0    0.00    0.09                 getPLA [14]
+                0.00    0.09       1/1           read_pla [13]
+-----------------------------------------------
+                0.08    0.00   40141/40141       parse_pla [12]
+[15]     0.0    0.08    0.00   40141         read_cube [15]
+                0.00    0.00   80282/3258358     set_copy [16]
+                0.00    0.00   40141/40320       set_clear [30]
+                0.00    0.00   40141/40141       sf_addset [31]
+-----------------------------------------------
+                0.00    0.00     122/3258358     expand [1]
+                0.00    0.00     244/3258358     expand1 [2]
+                0.00    0.00    1522/3258358     unravel_range [27]
+                0.00    0.00    2637/3258358     essen_raising [8]
+                0.00    0.00    2807/3258358     essen_parts [7]
+                0.00    0.00   13933/3258358     mincov [26]
+                0.00    0.00   80282/3258358     read_cube [15]
+                0.08    0.00 3156811/3258358     feasibly_covered [4]
+[16]     0.0    0.08    0.00 3258358         set_copy [16]
+-----------------------------------------------
+                0.04    0.03       1/1           expand [1]
+[17]     0.0    0.04    0.03       1         mini_sort [17]
+                0.03    0.00       1/1           sf_count [19]
+                0.00    0.00       1/1           sf_list [84]
+                0.00    0.00       1/1           sf_unlist [85]
+                0.00    0.00       1/261         sf_free [50]
+-----------------------------------------------
+                0.05    0.00 3176150/3176150     select_feasible [3]
+[18]     0.0    0.05    0.00 3176150         setp_implies [18]
+-----------------------------------------------
+                0.03    0.00       1/1           mini_sort [17]
+[19]     0.0    0.03    0.00       1         sf_count [19]
+-----------------------------------------------
+                0.00    0.00      57/3189366     mincov [26]
+                0.00    0.00     122/3189366     expand1 [2]
+                0.00    0.00     122/3189366     expand [1]
+                0.00    0.00     598/3189366     elim_lowering [11]
+                0.00    0.00    2637/3189366     essen_raising [8]
+                0.00    0.00    7165/3189366     unravel_range [27]
+                0.00    0.00   21854/3189366     select_feasible [3]
+                0.02    0.00 3156811/3189366     feasibly_covered [4]
+[20]     0.0    0.02    0.00 3189366         set_or [20]
+-----------------------------------------------
+                                                 <spontaneous>
+[21]     0.0    0.02    0.00                 cdist [21]
+-----------------------------------------------
+                0.01    0.00     122/122         expand1 [2]
+[22]     0.0    0.01    0.00     122         setup_BB_CC [22]
+-----------------------------------------------
+                0.00    0.01       1/1           parse_pla [12]
+[23]     0.0    0.00    0.01       1         cube_setup [23]
+                0.01    0.00       1/1           set_fill [24]
+                0.00    0.00     115/40320       set_clear [30]
+-----------------------------------------------
+                0.01    0.00       1/1           cube_setup [23]
+[24]     0.0    0.01    0.00       1         set_fill [24]
+-----------------------------------------------
+                                                 <spontaneous>
+[25]     0.0    0.01    0.00                 set_ord [25]
+-----------------------------------------------
+                0.00    0.00      78/78          expand1 [2]
+[26]     0.0    0.00    0.00      78         mincov [26]
+                0.00    0.00   11986/3032307     set_dist [9]
+                0.00    0.00   13876/6983978     force_lower [10]
+                0.00    0.00      57/57          unravel_range [27]
+                0.00    0.00   13933/3258358     set_copy [16]
+                0.00    0.00      57/3189366     set_or [20]
+                0.00    0.00      78/261         sf_new [51]
+                0.00    0.00      78/8587        set_diff [34]
+                0.00    0.00      78/261         sf_free [50]
+                0.00    0.00      57/57          unravel [72]
+                0.00    0.00      57/57          do_sm_minimum_cover [70]
+                0.00    0.00      42/191         most_frequent [52]
+-----------------------------------------------
+                0.00    0.00      57/57          mincov [26]
+[27]     0.0    0.00    0.00      57         unravel_range [27]
+                0.00    0.00    4395/3032307     set_dist [9]
+                0.00    0.00    7165/3189366     set_or [20]
+                0.00    0.00    1522/3258358     set_copy [16]
+                0.00    0.00    1465/1465        set_and [45]
+                0.00    0.00      57/261         sf_new [51]
+                0.00    0.00      57/261         sf_free [50]
+-----------------------------------------------
+[28]     0.0    0.00    0.00    2182+147     <cycle 1 as a whole> [28]
+                0.00    0.00    1490             sm_delrow <cycle 1> [43]
+                0.00    0.00     839             sm_delcol <cycle 1> [47]
+-----------------------------------------------
+[29]     0.0    0.00    0.00      57+83      <cycle 2 as a whole> [29]
+                0.00    0.00      69+2           sm_mincov <cycle 2> [65]
+                0.00    0.00      71             gimpel_reduce <cycle 2> [64]
+-----------------------------------------------
+                0.00    0.00       2/40320       cube1list [76]
+                0.00    0.00       5/40320       expand [1]
+                0.00    0.00      57/40320       do_sm_minimum_cover [70]
+                0.00    0.00     115/40320       cube_setup [23]
+                0.00    0.00   40141/40320       read_cube [15]
+[30]     0.0    0.00    0.00   40320         set_clear [30]
+-----------------------------------------------
+                0.00    0.00   40141/40141       read_cube [15]
+[31]     0.0    0.00    0.00   40141         sf_addset [31]
+-----------------------------------------------
+                0.00    0.00      23/34382       gimpel_reduce <cycle 2> [64]
+                0.00    0.00      83/34382       sm_maximal_independent_set [68]
+                0.00    0.00   17114/34382       do_sm_minimum_cover [70]
+                0.00    0.00   17162/34382       sm_dup [67]
+[32]     0.0    0.00    0.00   34382         sm_insert [32]
+                0.00    0.00    2956/3443        sm_row_alloc [37]
+                0.00    0.00    1672/1672        sm_col_alloc [41]
+                0.00    0.00     261/320         sm_resize [49]
+-----------------------------------------------
+                0.00    0.00   12819/12819       sm_delrow <cycle 1> [43]
+[33]     0.0    0.00    0.00   12819         sm_col_remove_element [33]
+-----------------------------------------------
+                0.00    0.00      78/8587        mincov [26]
+                0.00    0.00     122/8587        expand1 [2]
+                0.00    0.00     598/8587        essen_parts [7]
+                0.00    0.00    2515/8587        select_feasible [3]
+                0.00    0.00    5274/8587        essen_raising [8]
+[34]     0.0    0.00    0.00    8587         set_diff [34]
+-----------------------------------------------
+                0.00    0.00    4390/4390        sm_delcol <cycle 1> [47]
+[35]     0.0    0.00    0.00    4390         sm_row_remove_element [35]
+-----------------------------------------------
+                0.00    0.00    3703/3703        sm_row_dominance [54]
+[36]     0.0    0.00    0.00    3703         sm_row_contains [36]
+-----------------------------------------------
+                0.00    0.00     116/3443        solution_alloc [61]
+                0.00    0.00     131/3443        sm_row_dup [58]
+                0.00    0.00     240/3443        sm_mincov <cycle 2> [65]
+                0.00    0.00    2956/3443        sm_insert [32]
+[37]     0.0    0.00    0.00    3443         sm_row_alloc [37]
+-----------------------------------------------
+                0.00    0.00      12/3443        sm_delcol <cycle 1> [47]
+                0.00    0.00      16/3443        sm_maximal_independent_set [68]
+                0.00    0.00      24/3443        gimpel_reduce <cycle 2> [64]
+                0.00    0.00      57/3443        do_sm_minimum_cover [70]
+                0.00    0.00     175/3443        solution_free [57]
+                0.00    0.00     240/3443        sm_mincov <cycle 2> [65]
+                0.00    0.00     371/3443        solution_accept [62]
+                0.00    0.00    1070/3443        sm_row_dominance [54]
+                0.00    0.00    1478/3443        sm_free [56]
+[38]     0.0    0.00    0.00    3443         sm_row_free [38]
+-----------------------------------------------
+                0.00    0.00     122/2929        expand1 [2]
+                0.00    0.00    2807/2929        essen_parts [7]
+[39]     0.0    0.00    0.00    2929         setp_empty [39]
+-----------------------------------------------
+                0.00    0.00    1693/1693        sm_col_dominance [53]
+[40]     0.0    0.00    0.00    1693         sm_col_contains [40]
+-----------------------------------------------
+                0.00    0.00    1672/1672        sm_insert [32]
+[41]     0.0    0.00    0.00    1672         sm_col_alloc [41]
+-----------------------------------------------
+                0.00    0.00      10/1672        sm_maximal_independent_set [68]
+                0.00    0.00      24/1672        gimpel_reduce <cycle 2> [64]
+                0.00    0.00     135/1672        sm_delrow <cycle 1> [43]
+                0.00    0.00     667/1672        sm_col_dominance [53]
+                0.00    0.00     836/1672        sm_free [56]
+[42]     0.0    0.00    0.00    1672         sm_col_free [42]
+-----------------------------------------------
+                                  12             sm_delcol <cycle 1> [47]
+                0.00    0.00      13/2182        sm_maximal_independent_set [68]
+                0.00    0.00      24/2182        gimpel_reduce <cycle 2> [64]
+                0.00    0.00     371/2182        solution_accept [62]
+                0.00    0.00    1070/2182        sm_row_dominance [54]
+[43]     0.0    0.00    0.00    1490         sm_delrow <cycle 1> [43]
+                0.00    0.00   12819/12819       sm_col_remove_element [33]
+                0.00    0.00     135/1672        sm_col_free [42]
+                                 135             sm_delcol <cycle 1> [47]
+-----------------------------------------------
+                0.00    0.00      12/1477        gimpel_reduce <cycle 2> [64]
+                0.00    0.00    1465/1477        sm_minimum_cover [71]
+[44]     0.0    0.00    0.00    1477         sm_row_intersects [44]
+-----------------------------------------------
+                0.00    0.00    1465/1465        unravel_range [27]
+[45]     0.0    0.00    0.00    1465         set_and [45]
+-----------------------------------------------
+                0.00    0.00    1099/1099        most_frequent [52]
+[46]     0.0    0.00    0.00    1099         set_adjcnt [46]
+-----------------------------------------------
+                                 135             sm_delrow <cycle 1> [43]
+                0.00    0.00      13/2182        sm_maximal_independent_set [68]
+                0.00    0.00      24/2182        gimpel_reduce <cycle 2> [64]
+                0.00    0.00     667/2182        sm_col_dominance [53]
+[47]     0.0    0.00    0.00     839         sm_delcol <cycle 1> [47]
+                0.00    0.00    4390/4390        sm_row_remove_element [35]
+                0.00    0.00      12/3443        sm_row_free [38]
+                                  12             sm_delrow <cycle 1> [43]
+-----------------------------------------------
+                0.00    0.00       3/565         sm_maximal_independent_set [68]
+                0.00    0.00     123/565         solution_add [59]
+                0.00    0.00     164/565         sm_mincov <cycle 2> [65]
+                0.00    0.00     275/565         sm_row_dup [58]
+[48]     0.0    0.00    0.00     565         sm_row_insert [48]
+-----------------------------------------------
+                0.00    0.00      59/320         sm_dup [67]
+                0.00    0.00     261/320         sm_insert [32]
+[49]     0.0    0.00    0.00     320         sm_resize [49]
+-----------------------------------------------
+                0.00    0.00       1/261         mini_sort [17]
+                0.00    0.00       3/261         free_PLA [172]
+                0.00    0.00      57/261         unravel_range [27]
+                0.00    0.00      78/261         mincov [26]
+                0.00    0.00     122/261         expand1 [2]
+[50]     0.0    0.00    0.00     261         sf_free [50]
+-----------------------------------------------
+                0.00    0.00       1/261         sf_unlist [85]
+                0.00    0.00       3/261         parse_pla [12]
+                0.00    0.00      57/261         unravel_range [27]
+                0.00    0.00      78/261         mincov [26]
+                0.00    0.00     122/261         select_feasible [3]
+[51]     0.0    0.00    0.00     261         sf_new [51]
+-----------------------------------------------
+                0.00    0.00      42/191         mincov [26]
+                0.00    0.00     149/191         expand1 [2]
+[52]     0.0    0.00    0.00     191         most_frequent [52]
+                0.00    0.00    1099/1099        set_adjcnt [46]
+-----------------------------------------------
+                0.00    0.00     181/181         sm_mincov <cycle 2> [65]
+[53]     0.0    0.00    0.00     181         sm_col_dominance [53]
+                0.00    0.00    1693/1693        sm_col_contains [40]
+                0.00    0.00     667/1672        sm_col_free [42]
+                0.00    0.00     667/2182        sm_delcol <cycle 1> [47]
+-----------------------------------------------
+                0.00    0.00     181/181         sm_mincov <cycle 2> [65]
+[54]     0.0    0.00    0.00     181         sm_row_dominance [54]
+                0.00    0.00    3703/3703        sm_row_contains [36]
+                0.00    0.00    1070/3443        sm_row_free [38]
+                0.00    0.00    1070/2182        sm_delrow <cycle 1> [43]
+-----------------------------------------------
+                0.00    0.00      57/175         do_sm_minimum_cover [70]
+                0.00    0.00      59/175         sm_maximal_independent_set [68]
+                0.00    0.00      59/175         sm_dup [67]
+[55]     0.0    0.00    0.00     175         sm_alloc [55]
+-----------------------------------------------
+                0.00    0.00       2/175         sm_mincov <cycle 2> [65]
+                0.00    0.00      57/175         sm_minimum_cover [71]
+                0.00    0.00      57/175         do_sm_minimum_cover [70]
+                0.00    0.00      59/175         sm_maximal_independent_set [68]
+[56]     0.0    0.00    0.00     175         sm_free [56]
+                0.00    0.00    1478/3443        sm_row_free [38]
+                0.00    0.00     836/1672        sm_col_free [42]
+-----------------------------------------------
+                0.00    0.00      61/175         sm_mincov <cycle 2> [65]
+                0.00    0.00     114/175         sm_minimum_cover [71]
+[57]     0.0    0.00    0.00     175         solution_free [57]
+                0.00    0.00     175/3443        sm_row_free [38]
+-----------------------------------------------
+                0.00    0.00       3/131         sm_maximal_independent_set [68]
+                0.00    0.00      12/131         gimpel_reduce <cycle 2> [64]
+                0.00    0.00      57/131         sm_minimum_cover [71]
+                0.00    0.00      59/131         solution_dup [69]
+[58]     0.0    0.00    0.00     131         sm_row_dup [58]
+                0.00    0.00     275/565         sm_row_insert [48]
+                0.00    0.00     131/3443        sm_row_alloc [37]
+-----------------------------------------------
+                0.00    0.00      12/123         gimpel_reduce <cycle 2> [64]
+                0.00    0.00     111/123         solution_accept [62]
+[59]     0.0    0.00    0.00     123         solution_add [59]
+                0.00    0.00     123/565         sm_row_insert [48]
+-----------------------------------------------
+                0.00    0.00     122/122         fprint_pla [170]
+[60]     0.0    0.00    0.00     122         print_cube [60]
+-----------------------------------------------
+                0.00    0.00      57/116         sm_minimum_cover [71]
+                0.00    0.00      59/116         sm_maximal_independent_set [68]
+[61]     0.0    0.00    0.00     116         solution_alloc [61]
+                0.00    0.00     116/3443        sm_row_alloc [37]
+-----------------------------------------------
+                0.00    0.00     111/111         sm_mincov <cycle 2> [65]
+[62]     0.0    0.00    0.00     111         solution_accept [62]
+                0.00    0.00     371/3443        sm_row_free [38]
+                0.00    0.00     371/2182        sm_delrow <cycle 1> [43]
+                0.00    0.00     111/123         solution_add [59]
+-----------------------------------------------
+                0.00    0.00     109/109         parse_pla [12]
+[63]     0.0    0.00    0.00     109         get_word [63]
+-----------------------------------------------
+                                  71             sm_mincov <cycle 2> [65]
+[64]     0.0    0.00    0.00      71         gimpel_reduce <cycle 2> [64]
+                0.00    0.00      24/1672        sm_col_free [42]
+                0.00    0.00      24/2182        sm_delcol <cycle 1> [47]
+                0.00    0.00      24/2182        sm_delrow <cycle 1> [43]
+                0.00    0.00      24/3443        sm_row_free [38]
+                0.00    0.00      23/34382       sm_insert [32]
+                0.00    0.00      12/12          sm_row_remove [73]
+                0.00    0.00      12/131         sm_row_dup [58]
+                0.00    0.00      12/1477        sm_row_intersects [44]
+                0.00    0.00      12/123         solution_add [59]
+                                  12             sm_mincov <cycle 2> [65]
+-----------------------------------------------
+                                   2             sm_mincov <cycle 2> [65]
+                                  12             gimpel_reduce <cycle 2> [64]
+                0.00    0.00      57/57          sm_minimum_cover [71]
+[65]     0.0    0.00    0.00      69+2       sm_mincov <cycle 2> [65]
+                0.00    0.00     240/3443        sm_row_alloc [37]
+                0.00    0.00     240/3443        sm_row_free [38]
+                0.00    0.00     181/181         sm_col_dominance [53]
+                0.00    0.00     181/181         sm_row_dominance [54]
+                0.00    0.00     164/565         sm_row_insert [48]
+                0.00    0.00     111/111         solution_accept [62]
+                0.00    0.00      61/175         solution_free [57]
+                0.00    0.00      59/59          sm_maximal_independent_set [68]
+                0.00    0.00      59/59          solution_dup [69]
+                0.00    0.00       2/2           sm_block_partition [79]
+                0.00    0.00       2/59          sm_dup [67]
+                0.00    0.00       2/175         sm_free [56]
+                                  71             gimpel_reduce <cycle 2> [64]
+                                   2             sm_mincov <cycle 2> [65]
+-----------------------------------------------
+                0.00    0.00       2/61          read_pla [13]
+                0.00    0.00       2/61          totals [368]
+                0.00    0.00      57/61          sm_minimum_cover [71]
+[66]     0.0    0.00    0.00      61         util_cpu_time [66]
+-----------------------------------------------
+                0.00    0.00       2/59          sm_mincov <cycle 2> [65]
+                0.00    0.00      57/59          sm_minimum_cover [71]
+[67]     0.0    0.00    0.00      59         sm_dup [67]
+                0.00    0.00   17162/34382       sm_insert [32]
+                0.00    0.00      59/175         sm_alloc [55]
+                0.00    0.00      59/320         sm_resize [49]
+-----------------------------------------------
+                0.00    0.00      59/59          sm_mincov <cycle 2> [65]
+[68]     0.0    0.00    0.00      59         sm_maximal_independent_set [68]
+                0.00    0.00      83/34382       sm_insert [32]
+                0.00    0.00      59/175         sm_alloc [55]
+                0.00    0.00      59/116         solution_alloc [61]
+                0.00    0.00      59/175         sm_free [56]
+                0.00    0.00      16/3443        sm_row_free [38]
+                0.00    0.00      13/2182        sm_delrow <cycle 1> [43]
+                0.00    0.00      13/2182        sm_delcol <cycle 1> [47]
+                0.00    0.00      10/1672        sm_col_free [42]
+                0.00    0.00       3/131         sm_row_dup [58]
+                0.00    0.00       3/565         sm_row_insert [48]
+-----------------------------------------------
+                0.00    0.00      59/59          sm_mincov <cycle 2> [65]
+[69]     0.0    0.00    0.00      59         solution_dup [69]
+                0.00    0.00      59/131         sm_row_dup [58]
+-----------------------------------------------
+                0.00    0.00      57/57          mincov [26]
+[70]     0.0    0.00    0.00      57         do_sm_minimum_cover [70]
+                0.00    0.00   17114/34382       sm_insert [32]
+                0.00    0.00      57/175         sm_alloc [55]
+                0.00    0.00      57/57          sm_minimum_cover [71]
+                0.00    0.00      57/175         sm_free [56]
+                0.00    0.00      57/40320       set_clear [30]
+                0.00    0.00      57/3443        sm_row_free [38]
+-----------------------------------------------
+                0.00    0.00      57/57          do_sm_minimum_cover [70]
+[71]     0.0    0.00    0.00      57         sm_minimum_cover [71]
+                0.00    0.00    1465/1477        sm_row_intersects [44]
+                0.00    0.00     114/175         solution_free [57]
+                0.00    0.00      57/61          util_cpu_time [66]
+                0.00    0.00      57/116         solution_alloc [61]
+                0.00    0.00      57/59          sm_dup [67]
+                0.00    0.00      57/57          sm_mincov <cycle 2> [65]
+                0.00    0.00      57/175         sm_free [56]
+                0.00    0.00      57/131         sm_row_dup [58]
+-----------------------------------------------
+                0.00    0.00      57/57          mincov [26]
+[72]     0.0    0.00    0.00      57         unravel [72]
+-----------------------------------------------
+                0.00    0.00      12/12          gimpel_reduce <cycle 2> [64]
+[73]     0.0    0.00    0.00      12         sm_row_remove [73]
+-----------------------------------------------
+                0.00    0.00       3/3           backward_compatibility_hack [96]
+[74]     0.0    0.00    0.00       3         check_arg [74]
+-----------------------------------------------
+                0.00    0.00       2/2           totals [368]
+[75]     0.0    0.00    0.00       2         cover_cost [75]
+                0.00    0.00       2/2           massive_count [77]
+                0.00    0.00       2/2           cube1list [76]
+-----------------------------------------------
+                0.00    0.00       2/2           cover_cost [75]
+[76]     0.0    0.00    0.00       2         cube1list [76]
+                0.00    0.00       2/40320       set_clear [30]
+-----------------------------------------------
+                0.00    0.00       2/2           cover_cost [75]
+[77]     0.0    0.00    0.00       2         massive_count [77]
+-----------------------------------------------
+                                   9             pair_all [78]
+                0.00    0.00       2/2           sm_block_partition [79]
+[78]     0.0    0.00    0.00       2+9       pair_all [78]
+                                   9             pair_all [78]
+-----------------------------------------------
+                0.00    0.00       2/2           sm_mincov <cycle 2> [65]
+[79]     0.0    0.00    0.00       2         sm_block_partition [79]
+                0.00    0.00       2/2           pair_all [78]
+-----------------------------------------------
+                0.00    0.00       1/1           parse_pla [12]
+[80]     0.0    0.00    0.00       1         PLA_labels [80]
+-----------------------------------------------
+                0.00    0.00       1/1           fprint_pla [170]
+[81]     0.0    0.00    0.00       1         fpr_header [81]
+-----------------------------------------------
+                0.00    0.00       1/1           read_pla [13]
+[82]     0.0    0.00    0.00       1         new_PLA [82]
+-----------------------------------------------
+                0.00    0.00       1/1           expand [1]
+[83]     0.0    0.00    0.00       1         sf_inactive [83]
+-----------------------------------------------
+                0.00    0.00       1/1           mini_sort [17]
+[84]     0.0    0.00    0.00       1         sf_list [84]
+-----------------------------------------------
+                0.00    0.00       1/1           mini_sort [17]
+[85]     0.0    0.00    0.00       1         sf_unlist [85]
+                0.00    0.00       1/261         sf_new [51]
+-----------------------------------------------
+                0.00    0.00       1/1           parse_pla [12]
+[86]     0.0    0.00    0.00       1         skip_line [86]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2014 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [80] PLA_labels             [45] set_and                [47] sm_delcol
+  [21] cdist                  [30] set_clear              [43] sm_delrow
+  [74] check_arg              [16] set_copy               [67] sm_dup
+  [75] cover_cost             [34] set_diff               [56] sm_free
+  [76] cube1list               [9] set_dist               [32] sm_insert
+  [23] cube_setup             [24] set_fill               [68] sm_maximal_independent_set
+  [70] do_sm_minimum_cover    [20] set_or                 [65] sm_mincov
+  [11] elim_lowering          [25] set_ord                [71] sm_minimum_cover
+   [7] essen_parts             [5] setp_disjoint          [49] sm_resize
+   [8] essen_raising          [39] setp_empty             [37] sm_row_alloc
+   [2] expand1                 [6] setp_equal             [36] sm_row_contains
+   [4] feasibly_covered       [18] setp_implies           [54] sm_row_dominance
+  [10] force_lower            [22] setup_BB_CC            [58] sm_row_dup
+  [81] fpr_header             [31] sf_addset              [38] sm_row_free
+  [63] get_word               [19] sf_count               [48] sm_row_insert
+  [64] gimpel_reduce          [50] sf_free                [44] sm_row_intersects
+  [77] massive_count          [83] sf_inactive            [73] sm_row_remove
+  [26] mincov                 [84] sf_list                [35] sm_row_remove_element
+  [17] mini_sort              [51] sf_new                 [62] solution_accept
+  [52] most_frequent          [85] sf_unlist              [59] solution_add
+  [82] new_PLA                [86] skip_line              [61] solution_alloc
+  [78] pair_all               [55] sm_alloc               [69] solution_dup
+  [12] parse_pla              [79] sm_block_partition     [57] solution_free
+  [60] print_cube             [41] sm_col_alloc           [72] unravel
+  [15] read_cube              [40] sm_col_contains        [27] unravel_range
+  [13] read_pla               [53] sm_col_dominance       [66] util_cpu_time
+   [3] select_feasible        [42] sm_col_free            [28] <cycle 1>
+  [46] set_adjcnt             [33] sm_col_remove_element  [29] <cycle 2>
